@@ -1,4 +1,4 @@
-div {
+/* div {
     text-align: center;
 }
 
@@ -21,4 +21,40 @@ p{
 
 button:hover{
     background-color: green;
+} */
+
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #quote-container {
+      margin-top: 50px;
+    }
+    #quote {
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    #author {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    h1 {
+    font-size: 80px;
+    font-family: Impact;
 }
+
+button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    transition: all 0.5s;
+}
+
+p{
+    font-size: 35px;
+}
+
+button:hover{
+    background-color: green;
+} 
